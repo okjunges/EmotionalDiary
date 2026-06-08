@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="감정 다이어리" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h78-Zz-rT4">
+                                <rect key="frame" x="16" y="434" width="361" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="textColor" name="TextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EmotionalDiary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBd-Lm-OwZ">
+                                <rect key="frame" x="16" y="494" width="361" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <color key="textColor" name="LightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당신의 하루를 기록해 보아요" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cu9-aU-LAK">
+                                <rect key="frame" x="16" y="580" width="361" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" name="LightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="vl5-ld-LVM">
+                                <rect key="frame" x="0.0" y="118" width="393" height="308"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="LoginBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cu9-aU-LAK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1Wi-EZ-f8U"/>
+                            <constraint firstAttribute="bottom" secondItem="vl5-ld-LVM" secondAttribute="bottom" constant="426" id="2lP-FM-eNl"/>
+                            <constraint firstItem="SBd-Lm-OwZ" firstAttribute="top" secondItem="h78-Zz-rT4" secondAttribute="bottom" id="3Dc-ed-Iim"/>
+                            <constraint firstItem="h78-Zz-rT4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3Kn-k2-W7K"/>
+                            <constraint firstItem="SBd-Lm-OwZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9Xs-eZ-87F"/>
+                            <constraint firstItem="vl5-ld-LVM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="118" id="A6A-r3-hSL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h78-Zz-rT4" secondAttribute="trailing" constant="16" id="Atj-nc-iH1"/>
+                            <constraint firstItem="vl5-ld-LVM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ehw-dy-QoL"/>
+                            <constraint firstItem="Cu9-aU-LAK" firstAttribute="top" secondItem="SBd-Lm-OwZ" secondAttribute="bottom" constant="50" id="HSd-Wx-di7"/>
+                            <constraint firstItem="vl5-ld-LVM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gh2-iQ-QY9"/>
+                            <constraint firstItem="h78-Zz-rT4" firstAttribute="top" secondItem="vl5-ld-LVM" secondAttribute="bottom" constant="8" id="huw-2X-i4d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cu9-aU-LAK" secondAttribute="trailing" constant="16" id="lH5-bH-dOT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SBd-Lm-OwZ" secondAttribute="trailing" constant="16" id="tFj-JN-87k"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchImg.png" width="1536" height="1024"/>
+        <namedColor name="LightTextColor">
+            <color red="0.59700000286102295" green="0.58499997854232788" blue="0.57800000905990601" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="LoginBackgroundColor">
+            <color red="0.984375" green="0.9609375" blue="0.9174804688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.32100000977516174" green="0.31799998879432678" blue="0.31099998950958252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
