@@ -70,3 +70,6 @@ DerivedData/
 # Firebase Emulator
 firebase-debug.log
 firebase-debug.*.log
+
+# 개인프로젝트고 그냥 코드 공유용이어서 보안상 비공개
+GoogleService-Info.plist
